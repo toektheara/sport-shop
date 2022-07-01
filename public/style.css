@@ -1,0 +1,1051 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+p{
+    font-size: 18px;
+    text-align: center;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+.menu{
+    width: 80%;
+    height: 100%;
+}
+.list-left{
+    width: 30%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.list-left p{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 0;
+  top: 50%;
+  color: white;
+  font-size: 15px;
+}
+.list-right{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+.list-right ul{
+    float: right;
+    list-style: none;
+}
+.list-right ul li{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    float: left;
+    display: block;
+    padding: 15px;
+    cursor: pointer;
+}
+.list-right ul li #about{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+.list-right ul li i{
+    color: white;
+}
+.brand-shop{
+    margin-top: 4%;
+}
+.left{
+    width: 25%;
+    height: 100%;
+    float: left;
+  
+}
+.left ul{
+    list-style-type: none;
+    float: left;
+}
+.left ul li{
+    font-size: 40px;
+    display: block;
+    padding: 0 40px;
+    text-decoration: none;
+    float: left;
+}
+.middle{
+    width: 50%;
+    height: 100%;
+    float: left;
+  
+}
+.middle h1{
+    font-size: 50px;
+    text-align: center;
+    color:  black;
+}
+.middle p{
+    font-size: 12px;
+    text-align: center;
+}
+.right{
+    width: 25%;
+    float: left;
+    height: 100%;
+}
+.right ul{
+    list-style-type: none;
+    float: left;
+}
+.right ul li{
+    font-size: 40px;
+    display: block;
+    padding:0 40px;
+    text-decoration: none;
+    float: left;
+}
+.nav{
+    margin-top: 15%;
+    border-bottom: solid 0.3px gray;
+    border-top: solid 0.3px gray;
+    z-index: 100000;
+}
+.nav ul{
+    list-style-type: none;
+    float: left;
+    margin-left: 20%;
+}
+.nav ul li{
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    float: left;
+    padding: 40px;
+    font-size: 18px;
+    position: relative;
+} 
+.nav ul li:hover{
+    font-size: 20px;
+    text-decoration: underline;
+    display: visible;
+}
+.nav ul li #list{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+.barkery{
+    height: 450px;
+    margin: 50px auto;
+    width: 100%;
+
+}
+.box1{
+    width: 5%;
+    float: left;
+    height: 100%;
+}
+.box2{
+    width: 90%;
+    float: left;
+    height: 100%;
+    
+}
+.pic1{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+.pic1 img{
+    width: 50%;
+    height: 50%;
+    float: left;
+    padding: 3px 3px;
+}
+.pic2{
+width: 29%;
+height: 100%;
+float: left;
+margin-left: 2px;
+
+}
+.pic2 img{
+    width: 100%;
+    height: 100%;
+    padding: 3px 3px;
+}
+.info{
+    height: 400px;
+    background-image: url('picture/bread.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+.info ul{
+  list-style-type: none;
+  float: left;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 30%;
+  left: 50%;
+
+}
+.info ul li{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    float: left;
+
+}
+.info h3{
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+}
+.info p{
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 70%;
+    left: 50%;
+    font-size: 15px;
+}
+.res{
+    height: 400px;
+    width: 100%;
+    margin:0 auto;
+    padding: 0 ;
+    margin-bottom: 70px;
+
+}
+.res .bread{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 100%;
+    border: 5px dotted rgb(154, 131, 131);
+    background-image: url('picture/manuprd1.jpg');
+    background-size: 95% 95%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.res .text{
+    float: left;
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.res .text h2{
+    position: absolute;
+    top: 30%;
+    font-size: 40px;
+    text-align: center;
+    float: left;
+    left: 10%;
+}
+.res .text p{
+    font-size: 16px;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    text-align: center;
+    float: left;
+}
+.res .text button{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.bread h2{
+    border-radius: 50%;
+    width: 100px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    font-size: 25px;
+    z-index: 1;
+    float: right;
+    margin-right: -8%;
+    margin-top: -8%;
+}
+.show{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 70px;
+}
+.show .bread1{
+    height: 100%;
+    width: 30%;
+    background-image: url('picture/windowparis.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+.bread1 h5{
+    text-align: center;
+    color:black;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(179, 153, 153);
+    font-size: 22px;
+    padding-top: 10px;
+    margin-top: 40%;
+}
+.bread1 h5 a{
+    text-decoration: none;
+    color: black;
+}
+    .show .bread2{
+        height: 100%;
+        background-image: url('picture/Manulist.jpg');
+        background-position: center;
+        width: 30%;
+        margin: 0 45px;
+        float: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+     }
+     .bread2 h5 a{
+        text-decoration: none;
+        color: black;
+    }
+     .bread2 h5{
+        text-align: center;
+        color:black;
+        width: 200px;
+        height: 50px;
+        background-color: rgb(179, 153, 153);
+        font-size: 22px;
+        padding-top: 10px;
+        margin-top: 40%;
+    }
+    .show .bread3{
+        width: 30%;
+        height: 100%;
+        float: left;
+        background-image: url('picture/group.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }  
+    .bread3   h5{
+        text-align: center;
+        color:black;
+        width: 200px;
+        height: 50px;
+        background-color: rgb(179, 153, 153);
+        font-size: 22px;
+        padding-top: 10px;
+        margin-top: 40%;
+    }
+    .bread3 h5 a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .process{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    height: 700px;
+    box-sizing: border-box;
+}
+.boxes1{
+    background-image: url('picture/Realmadrid.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 46%;
+    height: 49%;
+    float: left;
+}
+.boxes2{
+    width: 49%;
+    height: 49%;
+    background-color: gray;
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+.boxes2 h2{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 25px;
+}
+.boxes2 p{
+    text-align: center;
+    font-size: 18px;
+    padding: 30px 30px;
+}
+.boxes2 button{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-left: 40%;
+}
+.boxes2 button:hover{
+    background-color: white;
+    color: black;
+}
+.boxes2 button a{
+    text-decoration: none;
+}
+.boxes4{
+    background-image: url('picture/team.jpg');
+    background-position: center;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 49%;
+    height: 49%;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+.boxes3{
+    width: 46%;
+    height: 49%;
+    float: left;
+    padding: 5px;
+    background-color: gray;
+}
+.boxes3 h2{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 25px;
+}
+.boxes3 p{
+    text-align: center;
+    font-size: 18px;
+    padding: 30px 30px;
+}
+.boxes3 button{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-left: 40%;
+}
+.boxes3 button:hover{
+    background-color: white;
+    color: black;
+}
+.boxes3 button a{
+    text-decoration: none;
+}
+
+.footer{
+    width: 100%;
+    height: 450px;
+    margin-top: 150px;
+    background-color: black;
+    position: relative;
+}
+
+
+
+
+.box-footer{
+    width: 100%;
+    height: 350px;
+    margin-left: 5%;
+    margin-top: 2.45%;
+    float: left;
+}
+.boxf-1 h1 a{
+    width: 90%;
+    height: 60px;
+    padding: 16px;
+    border: solid 0.1px white;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.boxf-1 h1 a:hover{
+    background-color: white;
+    color: black;
+}
+.boxf-1{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.boxf-2{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.boxf-1 p{
+    font-size: 15px;
+    color: white;
+    text-align: start;
+    margin-top: 20px;
+}
+.boxf-2 h1{
+    text-align: start;
+    color: white;
+    font-size: 18px;
+    margin-left: 40px;
+}
+.boxf-2 ul{
+    list-style-type: none;
+    float: left;
+}
+.boxf-2 ul li a{
+    display: block;
+    padding: 10px;
+    text-align: start;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.boxf-3{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.boxf-3 h1{
+    color: white;
+    font-size: 18px;
+}
+.list-box{
+    margin-top: 15px;
+    width: 100%;
+    height: 80px;
+    float: left;
+}
+.list-box img{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.list-box h4{
+    margin-left: 15px;
+    float: left;
+    font-size: 15px;
+    color: white;
+}
+.list-box p{
+    float: left;
+    font-size: 15px;
+    margin-left: 12px;
+    color: white;
+}
+
+.boxf-4{
+    float: left;
+    height: 100%;
+    width: 25%;
+}
+.boxf-4 h1{
+    color: white;
+    font-size: 18px;
+}
+.ig-img{
+    margin-top: 20px;
+    width: 100%;
+    overflow: hidden;
+    margin-left: 25px;
+}
+.ig-img img{
+    width:38%;
+    padding: 5px 5px;
+    float: left;
+    height: 70px;
+}
+.ad{
+    width: 100%;
+    height: 400px;
+}
+.empty{
+    width: 5%;
+    height: 100%;
+    float: left;
+}
+.ad-pic{
+    width: 90%;
+    margin: 60px auto;
+    height: 100%;
+    float: left;
+    background-image: url('picture/group.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.social{
+    width: 100%;
+    margin-left: 5%;
+    float: left;
+    position: absolute;
+    bottom: 0;
+}
+.social ul{
+    list-style-type: none;
+    float: left;
+
+}
+.social ul li{
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    display:inline-block;
+    padding: 0 15px;
+}
+.detail{
+    width: 100%;
+    height: 800px;
+    margin: 60px auto;
+}
+.box-pic{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.box-txt{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.txt-title{
+    width: 100%;
+    height: 15%;
+}
+.txt-title h1{
+    text-align: center;
+    font-size: 25px;
+    font-style: oblique;
+}
+.txt-title p{
+    text-align: center;
+    font-size: 16px;
+}
+.under-pic{
+    width: 100%;
+    height: 65%;
+}
+.under-pic img{
+    width: 80%;
+    height: 80%;
+}
+.txt-text{
+    width: 100%;
+    height: 45%;
+    float: left;
+}
+.txt-text p{
+    font-size: 20px;
+    text-align: start;
+}
+.txt-text p #lb{
+    font-size: 60px;
+}
+.txt-about{
+    width: 100%;
+    height: 53%;
+}
+.txt-about h2{
+    font-size: 25px;
+    text-align: start;
+}
+.txt-about p{
+    font: 20px;
+    text-align: start;
+}
+
+
+.txt-info{
+    width: 100%;
+    height: 40%;
+    float: left;
+}
+.information .txt-info p{
+    font-size: 16px;
+}
+.list-menu{
+    margin-top: 60px;
+    height: 400px;
+}
+.list-menu img{
+    width: 100%;
+    height: 50%;
+}
+.cart-item{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 0;
+    z-index: 1;
+    top: 30%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: fixed;
+    background-color: green;
+    cursor: pointer;
+}
+.cart-item p{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+.cart-item h6{
+    margin-left: 12px;
+    color: black;
+    font-size: 15px;
+    width: 80px;
+    padding-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+    height: 30px;
+    background-color: white;
+}
+.cart-item h6 a{
+    text-decoration: none;
+    color: black;
+}
+.list-item{
+    width: 50%;
+    overflow: scroll;
+    float: right;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+    border: solid 0.3px black;
+}
+.item-selected .btn-pay{
+    width: 150px;
+    height: 50px;
+    margin-top: 25px;
+    color: white;
+    float: right;
+    background-color: green;
+}
+
+.header-list{
+    width: 100%;
+    height: 45px;
+    background-color: green;
+    position: relative;
+}
+.header-list p{
+    font-size: 20px;
+    color: white;
+    text-align: start;
+    margin-left: 10px;
+    margin-top: 5px;
+    float: left;
+}
+.list-item .header-list button{
+    position: absolute;
+    right: 0;
+    margin-top: 5px;
+
+}
+.list-item .pay button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.body-item{
+    width: 100%;
+}
+.body-item img{
+    width: 50%;
+    height: 200px;
+   margin: 150px 50px;
+}
+
+.pay {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.pay button{
+    width: 30%;
+    height: 50px;
+    margin-top: 50px;
+    background-color: green;
+    border-radius: 16px;
+
+}
+.form{
+    width: 70%;
+    height: 450px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 2%;
+    background-color: rgb(156, 172, 185,0.1);
+}
+.img-block{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.img-block img{
+    width: 90%;
+    height: 90%;
+   margin-top: 40px;
+    border-radius: 20px;
+
+}
+
+.form-block{
+    float: left;
+    width: 50%;
+    height: 100%;  
+    background-color:rgb(156, 172, 185,0.1);
+    border-radius: 5px;
+}
+.form-controll{
+    width: 80%;
+    height: 60%;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+.form-block label{
+    font-size: 15px;
+    float:left;
+}
+.form-controll .btn-submit{
+    position: absolute;
+    left: 51%;
+}
+.navbar-nav{
+    position: relative;
+    left: 30%;
+}
+.social-log{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+.social-log p{
+    font-size: 15px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.social-log button{
+    width: 30px;
+    height: 30px;
+    border: none;
+    margin: 0 5px;
+    background-color: #0000ff;
+    border-radius: 5px;
+}
+.social-log button i{
+    width: 100%;
+    height: 100%;
+    color: white;
+   
+}
+.nav-item{
+    margin-right: 30px;
+}
+.contain-barkery{
+    width: 85%;
+    margin: auto;
+    top: 50px;
+    overflow: hidden;
+    position: relative;
+}
+.cake-category{
+    width: 100%;
+    overflow: hidden;
+}
+.pic-barkery {
+    width: 30%;
+    height: 200px;
+    float: left;
+    background-image: url('picture/cat-bread1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.barkery-dec{
+    float: left;
+    width: 70%;
+    height: 200px;
+}
+.barkery-dec p{
+    font-size: 18px;
+    text-align: center;
+}
+.barkery-dec i{
+   font-size: 40px;
+}
+.barkery-dec i:hover{
+   font-size: 45px;
+}
+.barkery-img{
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+.barkery-img img{
+    width: 32%;
+    height: 250px;
+    float: left;
+    padding: 0 5px;
+    margin-bottom: 50px;
+}
+.cookie-category{
+    width: 100%;
+    margin-top: 20px;
+    height: 200px;
+    float: left;
+}
+.pic-cookie {
+    width: 30%;
+    height: 200px;
+    float: left;
+    background-image: url('picture/cookie3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.cookie-dec p{
+    font-size: 18px;
+    text-align: center;
+}
+.cookie-dec i{
+   font-size: 40px;
+}
+.cookie-dec i:hover{
+   font-size: 45px;
+}
+.cookie-img{
+    width: 100%;
+    position: relative;
+    top: 20px;
+    overflow: hidden;
+}
+.cookie-img img{
+    width: 33%;
+    height: 250px;
+    float: left;
+    margin-bottom: 50px;
+    padding: 0 5px;
+    margin-top: 20px;
+}
+.cookie-img h5{
+    margin: 20px;
+}
+
+.desert-category{
+    width: 100%;
+    margin-top: 20px;
+    margin-top: 20px;
+    height: 250px;
+    float: left;
+}
+.desert-category h3{
+    margin-top: 0px;
+}
+.pic-desert {
+    width: 30%;
+    height: 200px;
+    float: left;
+    background-image: url('picture/ice1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.desert-dec p{
+    font-size: 18px;
+    text-align: center;
+}
+.desert-dec i{
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+.desert-dec i:hover{
+    font-size: 45px;
+}
+.desert-img{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    top: 20px;
+}
+.desert-img h5{
+    margin-top: 20px;
+}
+.desert-img img{
+    width: 33%;
+    padding: 0 5px;
+    height: 250px;
+    float: left;
+    margin-bottom: 50px;
+}
+.txt-cart{
+    font-size: 25px;
+}
+.navbar-login ul{
+    margin-left: 35%;
+    float: left;
+    list-style-type: none;
+}
+.navbar-login ul li{
+    float: left;
+    display: inline-block;
+    padding: 15px;
+}
+.navbar-login ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.item-selected{
+    position: relative;
+    margin-top: 10%;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 2%;
+    background-color: whitesmoke;
+    
+}
+.btn-green{
+background-color: green;
+color: white;
+}
+.list-shop{
+    width: 200px;
+}
